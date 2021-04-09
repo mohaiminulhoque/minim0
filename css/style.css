@@ -1,0 +1,310 @@
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+/* common start */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+/* common end */
+
+
+/* navbar start */
+header{
+	padding:30px 0;
+}
+.container {
+	width: 90%;
+	/*
+	border: 1px solid orange;
+	*/
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+.logo {
+	margin-top: 8px;
+	width: 10%;
+	float: left;
+}
+
+.logo a{
+	display: block;
+}
+
+.logo a img{
+	width: 100%;
+
+}
+
+.menu {
+	width: 65%;
+	float: right;
+}
+
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	text-decoration: none;
+	list-style: none;
+	float: left;
+
+}
+
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 50px;
+	display: inline-block;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: black;
+	border-bottom: 1px solid black;
+
+}
+
+/* navbar end */
+
+
+
+/* banner start */
+.b_image img{
+	width: 100%;
+}
+
+/* banner end */
+
+
+/* banner1 start */
+
+.container {
+}
+
+.container2 {
+	margin: 0 auto;
+	width: 80%;
+	/*
+	border: 1px solid red;
+	*/
+}
+
+.container2 h6{
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14pt;
+	color: #b4ad9e;
+
+}
+.container2 h1{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-weight: 300;
+	font-size: 30pt;
+	color: #626262;
+}
+.container2 p{
+	margin-top: 20px;
+	margin-bottom: 28px;
+	font-size: 14pt;
+	color: #626262;
+}
+
+.comment {
+	cursor: pointer;
+
+}
+
+.comment h6{
+	margin-top: 28px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14pt;
+	color: #b4ad9e;
+}
+/* banner1 end */
+
+
+/* service start */
+.container {
+}
+
+.lifestyle {
+	overflow: hidden;
+	margin: 50px 0;
+}
+
+.content {
+	width: 48%;
+	float: left;
+	/* border: 1px solid blue; */
+}
+.content img{
+	width: 100%;
+	margin: 30px 0;
+}
+
+
+.content_2 {
+	width: 48%;
+	float: right;
+	/* border: 1px solid green; */
+}
+
+.content_2 img{
+	width: 100%;
+	margin: 30px 0;
+}
+
+.content_2 span{
+	
+}
+
+
+.photodiary {
+	overflow: hidden;
+	margin: 50px 0;
+}
+/* service end */
+
+
+/* Newsletter start */
+.newsltr{
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+}
+.s_h1{
+	margin-top: 15px;
+	margin-bottom: 20px;
+	font-weight: 300;
+	font-size: 30pt;
+	color: #626262;
+    margin-bottom:50px ;
+    margin-top: 0;
+}
+.s_frm{
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+}
+
+.s_frm input{
+    width: 335px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #626262;
+    background: transparent;
+    padding-left: 5px;
+    padding-right:45px;
+}
+
+.s_frm input:focus{
+    outline: 0;
+}
+.s_btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    z-index: 1;
+}
+.s_btn:focus{
+    outline: 0;
+}
+
+
+/* Newsletter end */
+
+
+/*loadmore-start*/
+ .btn{
+     margin: 50px auto;
+     padding: 100px;
+   
+    text-align: center;
+   
+    
+ }
+
+.btn a{
+    font-family:Playfairdisplay-Regular;
+    text-decoration: none;
+    color: #626262;
+    border: 1px solid #626262;
+    padding: 22px;
+
+}
+/*loadmore-end*/
+
+/* Footer Section start */
+footer{
+    background-color: #f0f0f0;
+}
+.footer-container{
+    margin: 0 auto;
+    width: 90%;
+    padding: 30px 0px;
+    overflow: hidden;
+}
+footer .footer-left{
+    width: 30%;
+}
+footer .footer-left p{
+    float: left;
+    margin-right: 20px;
+}
+footer .footer-right{
+    float: right;
+    width: 20%;
+}
+footer .footer-right p{
+    display: inline-block;
+}
+footer .footer-right ul{
+    float: right;
+}
+footer .footer-right ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+footer .footer-right ul li i{
+    color: #626262;
+}
+footer .footer-right ul li i:hover{
+    color: #000;
+}
+footer .footer-right p{
+    display: inline-block;
+}
+
+
+
+/* Footer Section End */
+
+
+
+
+
+
+
+
+
+
